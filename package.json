@@ -18,6 +18,6 @@
     "vitepress": "^1.6.4"
   },
   "dependencies": {
-    "@vitepress-demo-preview/plugin": "^1.4.1",
+    "@vitepress-demo-preview/plugin": "^1.4.1"
   }
 }
