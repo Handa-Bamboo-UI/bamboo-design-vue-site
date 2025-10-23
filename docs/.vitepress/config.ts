@@ -69,4 +69,5 @@ export default defineConfig({
       md.use(componentPreview);
     },
   },
+  base: '/bamboo-design-vue-site/', 
 });
