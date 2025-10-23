@@ -14,11 +14,10 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.2",
   "devDependencies": {
-    "@bamboo-design/components": "workspace:^",
+    "bamboo-design": "1.0.8",
     "vitepress": "^1.6.4"
   },
   "dependencies": {
     "@vitepress-demo-preview/plugin": "^1.4.1",
-    "bamboo-design": "workspace:^"
   }
 }
