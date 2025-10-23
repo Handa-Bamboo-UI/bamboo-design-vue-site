@@ -5,11 +5,10 @@ import {
 } from "@vitepress-demo-preview/plugin";
 import { fileURLToPath, URL } from "node:url";
 export default defineConfig({
-  base: '/bamboo-design-vue-site/', 
   title: "Bamboo-design-vue",
   description: "A Vue Component Library",
   head: [
-    ['link', { rel: 'icon',  href: '../src/icon.png' }]
+    ['link', { rel: 'icon',  href: 'icon.png' }]
   ],
   vite: {
     resolve: {
@@ -58,9 +57,6 @@ export default defineConfig({
       { icon: "github", link: " " },
     ],
     logo: "/logo.png",
-    style: [
-      '/src/style.css'
-    ]
   },
   markdown: {
     // @vitepress-demo-preview的配置
@@ -70,4 +66,5 @@ export default defineConfig({
       md.use(componentPreview);
     },
   },
+  base: '/bamboo-design-vue-site/', 
 });
