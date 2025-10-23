@@ -4,12 +4,11 @@ import {
   componentPreview,
 } from "@vitepress-demo-preview/plugin";
 import { fileURLToPath, URL } from "node:url";
-const base = "/bamboo-design-vue-site/";
 export default defineConfig({
   title: "Bamboo-design-vue",
   description: "A Vue Component Library",
   head: [
-    ['link', { rel: 'icon',  href: '/icon.ico' }]
+    ['link', { rel: 'icon',  href: '../src/icon.png' }]
   ],
   vite: {
     resolve: {
