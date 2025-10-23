@@ -69,5 +69,4 @@ export default defineConfig({
       md.use(componentPreview);
     },
   },
-  base: "/bamboo-ui/" 
 });
