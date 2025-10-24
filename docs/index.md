@@ -26,21 +26,30 @@ hero:
       text: 简单了解
       link: /introduction/index
  
-# 特色
+# 特色 
 features:
-   # icon图标,目前只支持emoji
-  - icon: ⚡️
-    # 标题
-    title: 前端知识
-    #  介绍
-    details: HTML CSS JavaScript TypeScript Vue3等部分的基础以及进阶的内容知识点,整合自己以及别人的资料 
-  - icon: 🖖
-    title: 数据结构与算法
-    details: 介绍了基本数据结构以及相关的经典算法，强调问题-数据-算法的抽象过程，关注数据结构与算法的时间空间效率，培养编写出高效程序从而解决实际问题的综合能力。
-  - icon: 🛠️
-    title: 常用前端工具
-    details: 提供一系列的提高前端开发效果的工具网站,例如UI渐变色生成器 盒子阴影调试 Flex Grid 布局调试 包括常用的图标库...
-  - icon: 💓
-    title: 个人项目难点总结
-    details: 个人在开发项目中所遇到的技术难点,以及解决方案...
+  - icon: 🎋
+    title: 轻量优雅的设计理念
+    details: Bamboo-design 追求简洁与实用并重，以“竹”为意象，倡导自然、灵动、可持续的设计风格。组件风格统一、无多余依赖，开箱即用，适合中大型项目快速构建高质量前端界面。
+  
+  - icon: ⚙️
+    title: Vue3 + TypeScript 驱动
+    details: 基于 Vue3 Composition API 和 TypeScript 全量类型支持，具备完善的类型推导与智能提示，让开发体验更安全、更高效，保证在构建大型项目时的可维护性与可扩展性。
+  
+  - icon: 🧩
+    title: 丰富且可定制的组件体系
+    details: 提供从基础 UI 元素到复杂业务组件的全套解决方案，支持按需引入、主题定制与样式覆盖，轻松适配多种业务场景与品牌风格。
+  
+  - icon: 🔧
+    title: 统一构建与工程化支持
+    details: 内置基于 Vite 的高性能打包方案与自动类型声明生成，支持 ESM / CJS 双格式输出，兼容多种构建工具，适合单独使用或集成至更大的前端生态中。
+  
+  - icon: 📦
+    title: 完善的文档与示例支持
+    details: 提供详细的组件文档、演示示例与源码说明，结合 VitePress 构建的静态文档网站，帮助开发者快速理解、上手与拓展。
+  
+  - icon: 🌿
+    title: 开放与持续演进
+    details: Bamboo-design 是一个社区驱动的开源组件库，鼓励开发者共同参与优化与贡献代码，不断迭代与完善，致力于打造优雅、实用、可持续的前端设计体系。
+
 ---
