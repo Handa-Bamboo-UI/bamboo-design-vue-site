@@ -1,7 +1,15 @@
 /* .vitepress/theme/custom.css */
 :root {
   --vp-c-brand-1: #42b983;
+  --vp-c-text-1: #092504;
   --vp-c-text-2: rgb(63, 164, 119);
+  --vp-c-text-3: rgb(53, 144, 109);
   --vp-button-brand-bg: rgb(63, 164, 119);
   --vp-button-brand-hover-bg: rgb(53, 144, 109);
+}
+h1{
+  color: var(--vp-c-text-3);
+}
+h2{
+  color: var(--vp-c-text-2);
 }
