@@ -15,6 +15,7 @@
   "packageManager": "pnpm@10.18.2",
   "devDependencies": {
     "bamboo-design": "latest",
+    "@bamboo-design/components": "latest",
     "vitepress": "^1.6.4"
   },
   "dependencies": {

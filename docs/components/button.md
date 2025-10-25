@@ -25,10 +25,16 @@
 | **disabled**     | 是否禁用按钮                            | `boolean` | `false` |
 | **loading**      | 是否处于加载状态                        | `boolean` | `false` |
 | **size**         | 按钮尺寸，可选 `s` / `m` / `l`          | `string`  | `m`     |
-| **href**         | 链接按钮跳转地址（type 为 link 时生效） | `string`  | -       |
+| **block**        | 是否占据父元素宽度                      | `boolean` | `false` |
 | **enterAnimate** | 是否启用入场动画                        | `boolean` | `false` |
 | **thinFont**     | 是否使用细字体                          | `boolean` | `false` |
 | **darkMode**     | 是否启用暗色模式                        | `boolean` | `false` |
+| **href**         | 链接按钮跳转地址（type 为 link 时生效） | `string`  | -       |
+| **newWindow**    | 是否在新窗口打开链接（type 为 link 时生效） | `boolean` | `false` |
+| **iconType**     | 图标类型（可选）设置后默认开启图标                     | `string`  | -       |
+| **iconOnly**     | 是否仅显示图标（不显示文本）              | `boolean` | `false` |
+| **reverse**      | 是否图标在文本左侧                      | `boolean` | `false` |
+
 
 
 ## 🎨 按钮类型展示
@@ -72,7 +78,7 @@
 ### 链接按钮（Link）
 
 <br>
-<bm-button type="link" href="https://www.baidu.com">http 链接按钮</bm-button>
+<bm-button type="link" href="https://www.baidu.com" >http 链接按钮</bm-button>
 
 ```vue
 <bm-button type="link" href="https://www.baidu.com">http 链接按钮</bm-button>
@@ -120,6 +126,19 @@
 <bm-button type="primary" size="s">小按钮</bm-button>
 <bm-button type="primary" size="m">正常按钮</bm-button>
 <bm-button type="primary" size="l">大按钮</bm-button>
+```
+### 🙌 占据父元素宽度 block
+
+<br>
+<div class="button-sample" style="display: flex; flex-wrap: wrap; gap: 10px;">
+ <bm-button type="primary" size="m" block>正常按钮</bm-button> 
+  <bm-button type="primary" size="m" block>正常按钮</bm-button> 
+</div>
+
+```vue
+<bm-button type="primary" size="s" block>小按钮</bm-button>
+<bm-button type="primary" size="m" block>正常按钮</bm-button>
+<bm-button type="primary" size="l" block>大按钮</bm-button>
 ```
 
 ### ✨ 入场动画 enterAnimate
@@ -171,4 +190,64 @@
   href="https://www.baidu.com"
   darkMode
 >链接按钮</bm-button>
+```
+### 🔗 新窗口打开 newWindow
+
+<br>
+<div class="button-sample" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<bm-button type="link" href="https://www.baidu.com" newWindow>新窗口打开</bm-button>
+<bm-button type="link" href="https://www.baidu.com" newWindow>本地跳转</bm-button>
+</div>
+
+```vue
+<bm-button type="link" href="https://www.baidu.com" newWindow>新窗口打开</bm-button>
+<bm-button type="link" href="https://www.baidu.com">本地跳转</bm-button>
+```
+### 🎁图标 iconType
+
+<br>
+<div class="button-sample" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<bm-button type="primary" iconType="fa-search" >搜索</bm-button>
+<bm-button type="danger" iconType="fa-user">用户</bm-button>
+<bm-button type="alert" iconType="fa-shopping-cart">购物车</bm-button>
+<bm-button type="link" iconType="fa-check">检查</bm-button>
+</div>
+
+```vue
+<bm-button type="primary" iconType="fa-search">图标</bm-button>
+<bm-button type="primary" iconType="fa-search">图标</bm-button>
+<bm-button type="primary" iconType="fa-search" size="s">图标</bm-button>
+<bm-button type="primary" iconType="fa-search" size="l">图标</bm-button>
+```
+### 😎单图标按钮 iconOnly
+
+<br>
+<div class="button-sample" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<bm-button type="primary" iconType="fa-search" iconOnly>搜索</bm-button>
+<bm-button type="danger" iconType="fa-user" iconOnly>用户</bm-button>
+<bm-button type="alert" iconType="fa-shopping-cart" iconOnly>购物车</bm-button>
+<bm-button type="link" iconType="fa-check" iconOnly>检查</bm-button>
+<bm-button type="primary" iconType="fa-search"  >正常图标</bm-button>
+</div>
+
+```vue
+<bm-button type="primary" iconType="fa-search" iconOnly>图标</bm-button>
+<bm-button type="primary" iconType="fa-search" iconOnly size="s">图标</bm-button>
+<bm-button type="primary" iconType="fa-search" iconOnly size="l">图标</bm-button>
+```
+
+### 🎉图标居右
+
+<br>
+<div class="button-sample" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<bm-button type="primary" iconType="fa-search"  reverse>搜索</bm-button>
+<bm-button type="danger" iconType="fa-user"  reverse>用户</bm-button>
+<bm-button type="alert" iconType="fa-shopping-cart"  reverse>购物车</bm-button>
+<bm-button type="link" iconType="fa-check"  reverse>检查</bm-button>
+</div>
+
+```vue
+<bm-button type="primary" iconType="fa-search" iconOnly reverse>图标</bm-button>
+<bm-button type="primary" iconType="fa-search" iconOnly reverse size="s">图标</bm-button>
+<bm-button type="primary" iconType="fa-search" iconOnly reverse size="l">图标</bm-button>
 ```
