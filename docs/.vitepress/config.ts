@@ -18,44 +18,37 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    nav: [{ text: "组件", link: "/components/button" }],
+    nav: [{ text: "组件库", link: "/components/button" }],
     sidebar: [
       {
         text: "基础",
         items: [
           { text: "按钮 Button", link: "/components/button" },
-          { text: "布局容器 Container", link: "/components/container" },
+          { text: "图钉 Pin", link: "/components/pin" },
           { text: "图标 Icon", link: "components/icon" },
-          { text: "链接 Link", link: "/components/link" },
-          { text: "折叠面板 Collapse", link: "/components/collapse" },
         ],
       },
       {
-        text: "反馈",
+        text: "组合",
         items: [
-          { text: "反馈 Alert", link: "/components/alert" },
-          { text: "消息提示 Message", link: "/components/message" },
-          { text: "消息弹出框 MessageBox", link: "/components/messagebox" },
-          { text: "文字提示 Tooltip", link: "/components/tooltip" },
-          { text: "下拉菜单 Dropdown", link: "/components/dropdown" },
+          { text: "图钉组 PinGroup", link: "/components/pingroup" },
         ],
       },
       {
         text: "数据输入",
         items: [
-          { text: "开关 Switch", link: "components/switch" },
-          { text: "评分 Rate", link: "components/rate" },
-          { text: "输入框 Input", link: "components/input" },
-          { text: "选择框 Select", link: "components/select" },
-          { text: "表单 Form", link: "/components/form" },
-          { text: "日期选择器 DatePicker", link: "components/datepicker" },
+        
         ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: " " },
+      { icon: "github", link: "https://github.com/HandaQAQ-Code" },
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present HandaQAQ-Code'
+    },
     logo: "/logo.png",
   },
   markdown: {
