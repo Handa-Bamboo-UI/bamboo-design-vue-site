@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "按钮 Button", link: "/components/button" },
           { text: "图钉 Pin", link: "/components/pin" },
           { text: "图标 Icon", link: "components/icon" },
+<<<<<<< HEAD
         ],
       },
       {
@@ -38,18 +39,28 @@ export default defineConfig({
         text: "表单",
         items: [
           { text: "输入框 Input", link: "/components/input" },
+=======
+>>>>>>> 03a5f89c5ade651e22b4f47b75791ccb3f0c582b
         ],
       },
       {
-        text: "反馈",
+        text: "组合",
         items: [
+<<<<<<< HEAD
           { text: "消息提示 Message", link: "/components/message" },
+=======
+          { text: "图钉组 PinGroup", link: "/components/pingroup" },
+>>>>>>> 03a5f89c5ade651e22b4f47b75791ccb3f0c582b
         ],
       },
        {
         text: "布局",
         items: [
+<<<<<<< HEAD
           { text: "起司布局 CheeseLayout", link: "/components/cheese" },
+=======
+        
+>>>>>>> 03a5f89c5ade651e22b4f47b75791ccb3f0c582b
         ],
       },
     ],

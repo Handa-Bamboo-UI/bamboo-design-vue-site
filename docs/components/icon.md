@@ -1,7 +1,11 @@
 # 😀Icon 图标
 图标组件，用于显示图标。
 基于 [Font Awesome](https://fontawesome.com/) 图标库。
+<<<<<<< HEAD
 ## 🌈 基本属性
+=======
+## 基本属性
+>>>>>>> 03a5f89c5ade651e22b4f47b75791ccb3f0c582b
 | 属性名 | 类型 | 默认值 | 说明 |
 | --- | --- | --- | --- |
 | type | String | 'fa-check' | 图标类型，参考 [Font Awesome 图标库](https://fontawesome.com/icons?d=gallery&s=solid&m=free) |

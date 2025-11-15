@@ -8,9 +8,15 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <bm-pin-group left bottom direction="vertical" gap="0px"  style="height: 88%;position: relative;">
         <bm-pin description="图钉1" type="primary" iconOnly iconType="fa-home"  ></bm-pin>
         <bm-pin description="图钉2" type="primary" iconOnly iconType="arrow-right"></bm-pin>
+=======
+    <bm-pin-group left bottom direction="vertical" gap="0px" sleep style="height: 88%;position: relative;">
+        <bm-pin description="图钉1" type="primary" iconOnly iconType="fa-home"></bm-pin>
+        <bm-pin description="图钉2" type="primary" iconOnly iconType="arrow-right" ></bm-pin>
+>>>>>>> 03a5f89c5ade651e22b4f47b75791ccb3f0c582b
         <bm-pin description="图钉3" type="primary" iconOnly iconType="arrow-down" ></bm-pin>
         <bm-pin description="图钉4" type="primary" iconOnly iconType="arrow-left" ></bm-pin>
     </bm-pin-group>
