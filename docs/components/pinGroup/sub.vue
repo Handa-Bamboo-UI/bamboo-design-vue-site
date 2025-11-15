@@ -9,7 +9,6 @@
         </div>
     </div>
     <bm-pin-group left bottom direction="vertical" gap="0px"  style="height: 88%;position: relative;">
-<<<<<<< HEAD
         <bm-pin description="图钉1" type="primary" iconType="fa-home" menu iconOnly>
             <bm-pin-group direction="vertical" gap="0px" sub left sleep>
                 <bm-pin description="图钉5" type="default" iconOnly iconType="arrow-left" ></bm-pin>
@@ -27,21 +26,6 @@
         <bm-pin description="图钉3" type="primary" iconOnly iconType="arrow-down" ></bm-pin>
         <bm-pin description="图钉4" type="primary" iconOnly iconType="fa-ellipsis-v" ></bm-pin>
     </bm-pin-group>
-=======
-        <bm-pin description="图钉1" type="primary" iconOnly iconType="fa-home">
-            <bm-pin-group right bottom direction="vertical" gap="0px" style="height: 88%;position: relative;">
-                <bm-pin description="图钉1" type="primary" iconOnly iconType="fa-home"></bm-pin>
-                <bm-pin description="图钉2" type="primary" iconOnly iconType="arrow-down" ></bm-pin>
-                <bm-pin description="图钉3" type="primary" iconOnly iconType="arrow-right" ></bm-pin>
-                <bm-pin description="图钉4" type="primary" iconOnly iconType="arrow-left" ></bm-pin>
-            </bm-pin-group>
-        </bm-pin>
-        <bm-pin description="图钉2" type="primary" iconOnly iconType="arrow-right" ></bm-pin>
-        <bm-pin description="图钉3" type="primary" iconOnly iconType="arrow-down" ></bm-pin>
-        <bm-pin description="图钉4" type="primary" iconOnly iconType="fa-ellipsis-v" ></bm-pin>
-    </bm-pin-group>
-
->>>>>>> 03a5f89c5ade651e22b4f47b75791ccb3f0c582b
 </template>
 <style scoped>
     .head{
