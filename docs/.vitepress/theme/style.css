@@ -14,3 +14,13 @@ h1{
 h2{
   color: var(--vp-c-text-2);
 }
+demo-preview {
+  display: block;
+  position: relative;
+  overflow: auto;
+  height: 400px;
+  border: 2px solid #ddecd1;
+  border-radius: 8px;
+  padding: 0x;
+}
+ 

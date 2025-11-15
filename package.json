@@ -14,7 +14,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.2",
   "devDependencies": {
-    "bamboo-design": "latest",
+    "bamboo-design": "workspace:^",
+    "@bamboo-design/components": "workspace:^",
     "vitepress": "^1.6.4"
   },
   "dependencies": {
