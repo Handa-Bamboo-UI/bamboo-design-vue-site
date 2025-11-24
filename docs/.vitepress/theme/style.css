@@ -8,6 +8,9 @@
   --vp-button-alt-text: #9ace82;
   --vp-button-brand-hover-bg: rgb(53, 144, 109);
 }
+.container{
+  width: 100vw;
+}
 h1{
   color: var(--vp-c-text-3);
 }
